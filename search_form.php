@@ -8,9 +8,16 @@
 
     <h2>Search for a Car Model</h2>
 
-    <form action="search_result.php" method="get">
+    <!-- Search form sends the car model to search_result.php using GET -->
+    <form method="get" action="search_result.php">
         <label for="model">Enter Car Model:</label>
-        <input type="text" name="model" id="model" required>
+
+        <input 
+            type="text" 
+            id="model" 
+            name="model"
+        >
+
         <input type="submit" value="Search">
     </form>
 
